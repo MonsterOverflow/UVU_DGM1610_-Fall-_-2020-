@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/monst/OneDrive/Documents/firstLesson/Assets/Scenes/Prototype1.Custom.unity
+  isLoaded: 1
+  isActive: 1
