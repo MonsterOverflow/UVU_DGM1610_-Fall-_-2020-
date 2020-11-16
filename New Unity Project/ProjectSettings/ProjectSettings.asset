@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 18
-  productGUID: 00000000000000000000000000000000
+  productGUID: 443292a757175e94aa6fd395e03e5877
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -630,7 +630,7 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   cloudProjectId: e6c2a76b-92f1-4ff6-af61-8e5c175d8429
   framebufferDepthMemorylessMode: 0
-  projectName: 
+  projectName: New Unity Project
   organizationId: andskeeder
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
