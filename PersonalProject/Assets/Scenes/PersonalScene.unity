@@ -195,6 +195,7 @@ GameObject:
   - component: {fileID: 334244332}
   - component: {fileID: 334244331}
   - component: {fileID: 334244330}
+  - component: {fileID: 334244335}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -294,6 +295,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334244335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334244329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 928bb5daf283d864a99a3d37021afb8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,7 +399,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1668529446}
   - component: {fileID: 1668529445}
-  - component: {fileID: 1668529444}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -394,17 +406,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!154 &1668529444
-TerrainCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1668529443}
-  m_Material: {fileID: 0}
-  m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: 4177d48d33b56894c8357c84a43ecbbd, type: 2}
-  m_EnableTreeColliders: 0
 --- !u!218 &1668529445
 Terrain:
   m_ObjectHideFlags: 0
@@ -566,6 +567,21 @@ PrefabInstance:
     - target: {fileID: 5091505644217531230, guid: 7454706b6ea19474f9b52918ac093c06,
         type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5091505644217531230, guid: 7454706b6ea19474f9b52918ac093c06,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5091505644217531230, guid: 7454706b6ea19474f9b52918ac093c06,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5091505644217531230, guid: 7454706b6ea19474f9b52918ac093c06,
+        type: 3}
+      propertyPath: m_Size.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5091505644217531231, guid: 7454706b6ea19474f9b52918ac093c06,
